@@ -1,4 +1,4 @@
-from library.engine.library import Library
+from engine.library import Library
 
 
 def start_app_library() -> None:
