@@ -19,3 +19,4 @@ ___
 ___
 
 ## Example Usage  
+![library](files/library.gif)
