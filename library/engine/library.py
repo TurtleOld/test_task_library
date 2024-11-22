@@ -48,6 +48,9 @@ class Library:
             author (str): Автор книги.
             year (int): Год издания книги.
         """
+        if any(book['title'] == title for book in self.books):
+            print(f'Книга с названием {title} уже есть в библиотеке')
+            return
         book_id = len(self.books) + 1
         book = {
             "id": book_id,

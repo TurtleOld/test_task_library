@@ -35,7 +35,7 @@ def start_app_library() -> None:
                         f"Год: {book['year']}, Статус: {book['status']}"
                     )
             else:
-                print("Книги не найдены.")
+                print(f"Книга с названием {query} не найдена")
         elif choice == "4":
             library.display_books()
         elif choice == "5":
